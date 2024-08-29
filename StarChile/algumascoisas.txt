@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS tours (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT,
+  home_address TEXT,
+  hotel_name TEXT,
+        hotel_address TEXT,        
+        phone TEXT,
+        tour_date DATE,
+        person_quatity INTEGER,
+  tour_name TEXT,
+  final_price REAL
+    );
+
+
+INSERT INTO tour_names (name, price) VALUES
+('VALLE NEVADO PANORAMICO', 300.00),
+('VALLE NEVADO PUESTA DE SOL', 320.00),
+('RAFTING EN CAJÓN DEL MAIPO', 480.00),
+('TERMAS DE COLINA + EMBALSE EL YESO', 350.00),
+('TERMAS DE COLINA', 290.00),
+('EMBALSE EL YESO', 260.00);

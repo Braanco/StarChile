@@ -25,7 +25,7 @@
             <h2 class="titulo-registro">Registro de Viagem</h2>
         </div>
         <div class="box-form">
-            <form action="#" class="form-registro">
+            <form action="../controller/TourRegisterController.php" method="post" class="form-registro">
                 <div class="box-nome box-item">
                     <label for="name ">Nome Completo:</label>
                     <input type="text" name="name" id="name" class="tr"><br>

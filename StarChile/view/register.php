@@ -26,43 +26,44 @@
         </div>
         <div class="box-form">
             <form action="../controller/TourRegisterController.php" method="post" class="form-registro">
-                <div class="box-nome box-item">
-                    <label for="name ">Nome Completo:</label>
+                <div class="container">
+
+                    <label for="name" class="lbl-name lbl-item">Nome Completo:</label>
                     <input type="text" name="name" id="name" class="tr"><br>
-                </div>
 
-                <div class="box-telefone box-item">
-                    <label for="phone">Telefone:</label>
+
+
+                    <label for="phone" class="lbl-phone lbl-item">Telefone:</label>
                     <input type="tel" name="phone" id="phone" placeholder="(xx) xxxxx-xxxx"><br>
-                </div>
 
-                <div class="box-endereco-hotel box-item">
-                    <label for="home_address">Endereço do Hotel:</label>
+
+
+                    <label for="home_address" class="lbl-home lbl-item">Endereço do Hotel:</label>
                     <input type="text" name="home_address" id="home_address"><br>
-                </div>
 
-                <div class="box-nome-hotel box-item">
-                    <label for="hotel_name">Nome do Hotel:</label>
+
+
+                    <label for="hotel_name" class="lbl-hotel lbl-item">Nome do Hotel:</label>
                     <input type="text" name="hotel_name" id="hotel_name"><br>
-                </div>
 
-                <div class="box-endereco-residencial box-item">
-                    <label for="hotel_address">Endereço:</label>
+
+
+                    <label for="hotel_address" class="lbl-hotel-address lbl-item">Endereço:</label>
                     <input type="text" name="hotel_address" id="hotel_address"><br>
-                </div>
 
-                <div class="box-data-passeio box-item">
-                    <label for="">Data do Passeio:</label>
-                    <input type="date" name="" id=""><br>
-                </div>
 
-                <div class="box-numero-pessoa box-item">
-                    <label for="person_quantity">Número de Pessoas:</label>
+
+                    <label for="tour_date" class="lbl-date lbl-item">Data do Passeio:</label>
+                    <input type="date" name="tour_date" id="tour_date"><br>
+
+
+
+                    <label for="person_quantity" class="lbl-quantity lbl-item">Número de Pessoas:</label>
                     <input type="number" name="person_quantity" id="person_quantity"><br>
-                </div>
 
-                <div class="box-select-passeio box-item">
-                    <label for="tour_name">Selecione o Passeio:</label>
+
+
+                    <label for="tour_name" class="lbl-tour lbl-item">Selecione o Passeio:</label>
                     <select name="tour_name" id="tour_name">
                         <option value="0">selecione a opção...</option>
                         <option value="1">VALLE NEVADO PANORAMICO, 300.00</option>
@@ -72,6 +73,7 @@
                         <option value="5">TERMAS DE COLINA, 290.00</option>
                         <option value="6">EMBALSE EL YESO, 260.00</option>
                     </select><br>
+
                 </div>
                 <div class="box-submit">
                     <input type="submit" value="Registrar">

@@ -108,3 +108,8 @@ input{
     width: 10em;
     height: 2em;
 }
+
+#tour_name{
+    border: 1px solid black;
+    border-radius: 5px;
+}
